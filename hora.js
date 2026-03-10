@@ -4,3 +4,5 @@ let horasTrabalhadas = 8; // Expediente padrão
 
 console.log("--- Resumo do Expediente ---");
 console.log(`Horas iniciais: ${horasTrabalhadas}h`);
+
+console.log(valorPorHora * horasTrabalhadas);
