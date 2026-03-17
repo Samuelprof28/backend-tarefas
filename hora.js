@@ -15,3 +15,6 @@ console.log(`Após saída antecipada (horasTrabalhadas--): ${horasTrabalhadas}h`
 //Cálculo final
 let taxaSistema = 15;
 let pagamentoTotal = (horasTrabalhadas * valorPorHora) - taxaSistema;
+
+console.log("\n--- Fechamento ---");
+console.log(`Total a receber por ${horasTrabalhadas}h: R$ ${pagamentoTotal}`);
