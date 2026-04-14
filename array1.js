@@ -11,3 +11,9 @@ frutas.push("Pêssego"); //Adiciona um item elemento no final
 frutas.unshift("Pêra");
 console.log(frutas);
 console.log(frutas.length);
+
+frutas[3] = "Abacate";
+frutas.push("Melão");
+console.log(frutas);
+
+//NÃO COPIAR - 1) Alterar a fruta Uva por Abacate - 2) Adicionar Melão no último elemento da lista
